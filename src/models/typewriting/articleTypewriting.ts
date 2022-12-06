@@ -1,4 +1,4 @@
-import TypeWriting from './Typewriting'
+import TypeWriting from './typewriting'
 import type {
   ArticleOptions,
   IArticleTypeWriting,
