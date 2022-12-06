@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fcf1e5;
+  --font-zh: LXGWWenKai;
+  --font-en: Times New Roman;
+  --font-color: #443a3a;
+}
+
+html.dark {
+  background: #121212;
+}
+
+.dark body {
+  color: white;
+  background-color: #121212;
+}
+
+.cursor {
+  position: absolute;
+  left: -2px;
+  display: none;
+}
+
+#typeit .cursor {
+  display: block;
+  background-color: rgb(133, 129, 129);
+  height: 100%;
+  width: 2px;
+  animation-name: twinkle;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes twinkle {
+
+  0%,
+  50% {
+    opacity: 1;
+  }
+
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+@font-face {
+  font-family: Cormorant;
+  src: url('~/assets/font/Cormorant-Regular.ttf')
+}
+
+@font-face {
+  font-family: LXGWWenKai;
+  src: url('~/assets/font/LXGWWenKai-Regular.ttf')
+}
+
+@font-face {
+  font-family: FZKai;
+  src: url('~/assets/font/FZKai.ttf')
+}
+
+@font-face {
+  font-family: Lora;
+  src: url('~/assets/font/Lora-Regular.ttf')
+}
