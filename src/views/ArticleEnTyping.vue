@@ -52,7 +52,7 @@ function handleKeyDown(e: KeyboardEvent) {
  * @param e KeyboardEvent
  */
 function keyupListener(e: KeyboardEvent) {
-  if (window.localStorage.getItem('sound') === '0')
+  if (window.localStorage.getItem('sound') !== '1')
     return
 
   if (typewriting.working.value && keydownAudioEl.value) {

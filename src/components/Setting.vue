@@ -67,10 +67,10 @@ function selectFontColor() {
   window.localStorage.setItem('font-color', fontColorArr[Number(fontColorIndex.value)])
 }
 
-const sound = ref(true)
+const sound = ref(false)
 const info = ref(true)
-if (window.localStorage.getItem('sound') === '0')
-  sound.value = false
+if (window.localStorage.getItem('sound') === '1')
+  sound.value = true
 
 function toggleSound() {
   if (sound.value)

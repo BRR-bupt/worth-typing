@@ -14,7 +14,7 @@ onMounted(() => {
     type: 'info',
     offset: 50,
     position: 'top-right',
-    duration: 4500,
+    duration: 6000,
   })
 })
 

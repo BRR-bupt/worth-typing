@@ -1,8 +1,9 @@
 {
   "name": "worth-typing",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
+  "author": "baoruirui",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
