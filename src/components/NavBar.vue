@@ -247,7 +247,7 @@ function fullScreen() {
   <header @click="stopTypewriting">
     <nav>
       <div class="title">
-        Typewriting
+        Worthtyping
       </div>
       <div class="search-comp">
         <div class="search">

@@ -16,6 +16,9 @@ export default class ArticleTypeWriting extends TypeWriting implements IArticleT
 
   // private _language: 'zh' | 'en'
 
+  /**
+   * 类型，古文，现代文，英文文章
+   */
   private _type: 'guwen' | 'contemporary' | 'enArticle'
 
   /**
@@ -60,6 +63,11 @@ export default class ArticleTypeWriting extends TypeWriting implements IArticleT
     // return article.replace(patt, '').replace(patt2, '').replace(pattSpace, '')
   }
 
+  /**
+   * 处理引号
+   * @param val string
+   * @returns string
+   */
   private handleQuote(val: string): string {
     return val.replace(/“|”/g, '"').replace(/‘|’/g, '\'')
   }

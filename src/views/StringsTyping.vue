@@ -36,6 +36,7 @@ onUnmounted(() => {
       :wrong-count="typewriting.wrongCount.value"
       :accuracy="typewriting.accuracy.value"
       :speed="typewriting.speed.value"
+      type="en"
       @start="typewriting.start()"
       @pause="typewriting.pause()"
       @restart="typewriting.restart()"

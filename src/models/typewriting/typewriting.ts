@@ -97,6 +97,9 @@ export default class TypeWriting implements ITypeWriting {
     return this._text
   }
 
+  /**
+   * 当前索引
+   */
   get curIndex() {
     return this._curIndex
   }
